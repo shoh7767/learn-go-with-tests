@@ -17,6 +17,8 @@ func TestSum(t *testing.T) {
 		}
 	})
 
+	// if there is not the test below, coverage rate does not change
+
 	// t.Run("collection of any size", func(t *testing.T) {
 	// 	numbers := []int{1, 2, 3}
 	// 	got := Sum(numbers)
